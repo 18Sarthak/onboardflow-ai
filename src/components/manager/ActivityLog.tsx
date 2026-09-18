@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { LogRow } from "@/components/ui/LogRow";
-import { Skeleton } from "@/components/ui/Skeleton";
+import { Skeleton } from "@/components/ui/loading-skeleton";
 import type { AgentLog } from "@/api/types";
 
 const PAGE = 50;

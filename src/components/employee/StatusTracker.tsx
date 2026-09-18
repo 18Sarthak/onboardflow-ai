@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Check, Copy, RefreshCw, Sparkles } from "lucide-react";
 import { StatusBadge } from "@/components/ui/StatusBadge";
-import { Skeleton } from "@/components/ui/Skeleton";
+import { Skeleton } from "@/components/ui/loading-skeleton";
 import { AgentTimeline } from "./AgentTimeline";
 import { timeAgo } from "@/lib/time";
 import type { OnboardingRequest } from "@/api/types";

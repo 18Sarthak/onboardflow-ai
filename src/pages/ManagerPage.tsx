@@ -8,7 +8,7 @@ import { ApproveModal } from "@/components/manager/ApproveModal";
 import { RejectModal } from "@/components/manager/RejectModal";
 import { ActivityLog } from "@/components/manager/ActivityLog";
 import { RunSweepFab } from "@/components/manager/RunSweepFab";
-import { CardSkeleton } from "@/components/ui/Skeleton";
+import { CardSkeleton } from "@/components/ui/loading-skeleton";
 import { approveRequest, rejectRequest } from "@/api/requests";
 import { runSweep } from "@/api/agent";
 import { useKnownRequests, useLogsPolling } from "@/hooks/useManagerData";
